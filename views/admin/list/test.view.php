@@ -10,7 +10,8 @@ $speed_learner_config = array(
 <script type="text/javascript">
     require([
         'jquery-nos',
-        'static/apps/sdrdis_speed_learner/js/jquery.speedlearner.js'
+        'static/apps/sdrdis_speed_learner/js/jquery.speedlearner.js',
+        'link!static/apps/sdrdis_speed_learner/css/speedlearner.css'
     ], function($) {
         var speed_learner_config = <?= json_encode($speed_learner_config) ?>;
         var speed_learner_id = <?= json_encode($speed_learner_id) ?>;

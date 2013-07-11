@@ -1,0 +1,22 @@
+.speed_learner {
+    margin-top: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.speed_learner .choices {
+    text-align: center;
+}
+
+.speed_learner .choices button {
+    display: block;
+    margin: auto;
+}
+
+.speed_learner.on_menu .menu, .speed_learner.on_learning_center .learning_center {
+    display: block;
+}
+
+.speed_learner.on_menu .learning_center, .speed_learner.on_learning_center .menu {
+    display: none;
+}
